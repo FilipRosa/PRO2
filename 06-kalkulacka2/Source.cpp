@@ -8,25 +8,25 @@ int main()
 
     do
     {
-        cout << "Zadaj priklad napr. 10 + 5" << endl;
+        cout << "Zadaj priklad napr. 10 + 5: ";
         cin >> cislo1 >> operacia >> cislo2;
 
         switch (operacia)
         {
         case '+':
-            cout << cislo1 << " + " << cislo2 << " = " << cislo1 + cislo2;
+            cout << cislo1 << " + " << cislo2 << " = " << cislo1 + cislo2 <<endl << endl;
             break;
 
         case '-':
-            cout << cislo1 << " - " << cislo2 << " = " << cislo1 - cislo2;
+            cout << cislo1 << " - " << cislo2 << " = " << cislo1 - cislo2 << endl << endl;
             break;
 
         case '*':
-            cout << cislo1 << " * " << cislo2 << " = " << cislo1 * cislo2;
+            cout << cislo1 << " * " << cislo2 << " = " << cislo1 * cislo2 << endl << endl;
             break;
 
         case '/':
-            cout << cislo1 << " / " << cislo2 << " = " << cislo1 / cislo2;
+            cout << cislo1 << " / " << cislo2 << " = " << cislo1 / cislo2 << endl << endl;
             break;
 
         default:
